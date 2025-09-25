@@ -1,7 +1,7 @@
 # Report on Time Complexity Demonstration using C++  
 
 ### Introduction  
-In algorithm analysis, the *time complexity* of an algorithm is a measure that expresses the runtime of the algorithm as a function of the input size $$n$$. It provides a way to describe the efficiency of an algorithm without depending on machine-specific details. Common complexities include **constant time $$O(1)$$**, **linear time $$O(n)$$**, and **quadratic time $$O(n^2)$$**.  
+In algorithm analysis, the *time complexity* of an algorithm is a measure that expresses the runtime of the algorithm as a function of the input size $$ n$. It provides a way to describe the efficiency of an algorithm without depending on machine-specific details. Common complexities include **constant time $$O(1)$$**, **linear time $$O(n)$$**, and **quadratic time $$O(n^2)$$**.  
 
 This report demonstrates these three complexities using a C++ program that executes different functions on arrays of increasing sizes. The program outputs the number of operations performed for each complexity class and validates theoretical expectations with practical observation.
 
@@ -67,10 +67,8 @@ This report demonstrates these three complexities using a C++ program that execu
 - For **O(n²)** operations, the number of iterations grows quadratically. Doubling $$n$$ results in nearly **four times the number of operations**, which is consistent with quadratic growth.  
 
 ***
+<img width="2400" height="1600" alt="image" src="https://github.com/user-attachments/assets/742894ea-c71e-4778-b4f2-da19fdb9920d" />
 
-This visual alongside the earlier report gives a clear understanding of algorithm efficiency and scalability.
-
-![Time Complexity Growth](https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/2035df3977aa31f2a4aac9a3edfacc1b/0c2b52a9-25cc-4fbd-898a-8ca22a263b01/26937847.png
 
 ### Conclusion  
 
